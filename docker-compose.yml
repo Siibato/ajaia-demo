@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: ajaia-db
+    ports:
+      - "1100:5432"
+    environment:
+      POSTGRES_USER: ajaia
+      POSTGRES_PASSWORD: ajaia
+      POSTGRES_DB: ajaia
+    volumes:
+      - ajaia_pg_data:/var/lib/postgresql/data
+
+volumes:
+  ajaia_pg_data:
