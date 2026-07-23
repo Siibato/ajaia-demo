@@ -37,7 +37,8 @@ export async function POST(req: Request) {
     });
 
     return NextResponse.json({ id: user.id, email: user.email });
-  } catch {
+  } catch (error) {
+    console.error("Signup error:", error);
     return NextResponse.json(
       { error: "Something went wrong. Please try again." },
       { status: 500 }

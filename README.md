@@ -1,5 +1,8 @@
 # Ajaia
 
+- **Live demo:** https://ajaia-demo.vercel.app
+- **Code files:** https://drive.google.com/drive/folders/1h-zEU1gjvjP2Sdg4NGjnDiu0WIn9Liiu?usp=sharing
+
 A lightweight, browser-based document editor built with Next.js, Prisma, PostgreSQL, and UploadThing. Create rich-text documents, share them with fine-grained roles, attach files, and import `.txt`, `.md`, and `.docx` files as new documents.
 
 ## Tech Stack
